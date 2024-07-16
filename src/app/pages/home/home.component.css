@@ -1,0 +1,323 @@
+/* Container*/
+.container{
+  width: 1507px;
+  height: 680px;
+  background-color: #000000;
+  overflow: hidden;
+  
+}
+
+/* Sidebar design*/
+.sidebar{
+  background-color: #353535;
+  width: 291px;
+  height: 680px;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+/* Sidebar Logo Design*/
+img{
+  width: 243px;
+  height: 86px;
+  margin: 10px;
+}
+
+/*item*/
+.sidebar-items{
+  padding: 14px;
+  margin: 21px;
+  row-gap: 10;
+  overflow: hidden;
+  display: grid;
+
+}
+p{
+  color: antiquewhite;
+  font-size: 19px;
+  margin-left: 34px;
+  font-weight: 900;
+  margin-top: 15px;
+  width: 75px;
+}
+p:hover{
+  cursor: pointer;
+  color: lightgreen;
+}
+
+.icon{
+  margin: 10px;
+  display: inline-grid;
+  margin-top: -6px;
+  
+}
+.icon-text{
+  margin: 15px;
+  margin-top: -101px;
+  margin-left: 29px;
+  display: flow;
+}
+/*Home Icon*/
+.home{
+  width: 26px;
+  height: 27px;
+  margin-left: 6px;
+}
+/*Search Icon*/
+.search{
+  width: 26px;
+  height: 27px;
+  margin-left: 6px;
+}
+
+/*playlist-container*/
+.playlist-container{
+  background-color: #1e1e1e;
+  width: 230px;
+  margin-left: -20px;
+  height: 157px;
+  border-radius: 16px;
+}
+/*Library Icon*/
+.library{
+  width: 33px;
+  height: 31px;
+  margin-left: 16px;
+}
+h4{
+  font-size: 19px;
+  color: aliceblue;
+  margin-left: 62px;
+  margin-top: -36px;
+}
+h3{
+  font-size: 15px;
+  color: #9d9d9d;
+  margin-left: 22px;
+  margin-top: -4px;
+  font-style: normal;
+  font-weight: 100;
+}
+h2{
+  font-size: 10px;
+  color: #9d9d9d;
+  margin-left: 22px;
+  margin-top: -4px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/*Playlist-card*/
+.playlist-card{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 31px;
+  margin-left: 319px;
+  color: #0dff00;
+  margin-top: -314px;
+  
+}
+.playlist-card-container{
+  background-color: #272525;
+  margin-left: 321px;
+  width: 202px;
+  height: 229px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.playlist-card-container:hover {
+  background: linear-gradient(145deg, #272525, #272525);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.57);
+
+}
+
+.artist{
+  width: 1509px;
+  height: 527px;
+  overflow-x: auto;
+  background: rgb(0, 0, 0);
+  margin-block-start: 16px;
+  margin-left: 304px;
+
+}
+
+
+/*img-artist*/
+.img-artist{
+  width: 182px;
+  height: 171px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+h5{
+  font-size: 15px;
+  margin: 51px;
+  color: white;
+  margin-left: 339px;
+  margin-top: -46px;
+  width: 95px;
+}
+h5:hover{
+  color: lightgreen;
+}
+.play-icon{
+  width: 44px;
+  height: 41px;
+  margin-left: 460px;
+  margin-top: -120px;
+  cursor: pointer;
+  display: flex;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.play-icon:hover{
+  transform: scale(1.1);
+}
+.pritam{
+  margin-left: -303px;
+  margin-top: 5px;
+}
+.arijit{
+  margin-left: -75px;
+  margin-top: -204px;
+  height: 237px;
+}
+.badshah{
+  margin-top: -237px;
+  margin-left: 155px;
+  height: 240px;
+}
+.Ar-rahman{
+  margin-top: -239px;
+  margin-left: 388px;
+height: 250px;
+}
+.Shreya-Ghoshal{
+  margin-top: -250px;
+  margin-left: 622px;
+  height: 304px;
+
+}
+
+
+/*Playlist card*/
+.playlist-card-text{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 31px;
+  margin-left: 15px;
+  color: #0dff00;
+  margin-top: -62px;
+  
+}
+
+.playlist{
+  height: 280px;
+}
+
+.Animal{
+  margin-left: -302px;
+}
+.Tiger{
+  margin-left: -69px;
+  margin-top: -281px;
+}
+.Ashiqi2{
+  margin-left: 161px;
+  margin-top: -200px;
+}
+.Aavesham{
+  margin-left: 389px;
+  margin-top: -203px;
+}
+.lofi{
+  margin-left: 617px;
+  margin-top: -199px;
+}
+
+@media screen and (max-width: 360px) {
+  /* Styles for screens smaller than 360px */
+  .container {
+    height: auto;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .sidebar-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+  .icon-text {
+    margin-top: 0;
+  }
+  .playlist-card,
+  .playlist-card-container,
+  .artist,
+  .img-artist,
+  h5,
+  .play-icon {
+    margin: auto;
+  }
+  .playlist-card-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .img-artist {
+    width: 80px;
+    height: 80px;
+  }
+  .play-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Styles for screens smaller than 320px */
+  .container {
+    height: auto;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  }
+  .sidebar-items {
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 10px;
+    margin: 5px 0;
+  }
+  .icon-text {
+    margin-top: 0;
+  }
+  .playlist-card,
+  .playlist-card-container,
+  .artist,
+  .img-artist,
+  h5,
+  .play-icon {
+    margin: auto;
+  }
+  .playlist-card-text {
+    font-size: 16px;
+    text-align: center;
+  }
+  .img-artist {
+    width: 60px;
+    height: 60px;
+  }
+  .play-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

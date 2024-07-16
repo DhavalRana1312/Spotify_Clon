@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="logo">
+        <img src="Spotify_green.png" alt="Spotify Logo">
+    </div>
+    <h1>Sign up to start listening</h1>
+    <form [formGroup]="signupForm">
+        <div class="input-group">
+            <label>Email address</label>
+            <input type="email" id="email" placeholder="name@domain.com" formControlName="email" >
+        </div>
+        <div class="input-group">
+            <label>Mobile No.</label>
+            <input type="text" id="mobile" placeholder="Mobile No."  formControlName="number">
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Password" formControlName="password">
+        </div>
+        <div class="input-group">
+            <label>Confirm Password</label>
+            <input type="password" id="password" placeholder="password" formControlName="password">
+        </div>
+        <button type="submit" class="next-button" (click)="onNavigateLogin()">Login</button>
+        <p (click)="toggleForm('login')">Already have an account!!
+            <span class="highlighted">Login</span>
+          </p>
+    </form>
+</div>

@@ -1,0 +1,114 @@
+/* Sidebar design*/
+.sidebar{
+    background-color: #353535;
+    width: 291px;
+    height: 680px;
+    border-radius: 13px;
+    overflow: hidden;
+  }
+  
+  /* Sidebar Logo Design*/
+  img{
+    width: 243px;
+    height: 86px;
+    margin: 10px;
+  }
+  
+  /*item*/
+  .sidebar-items{
+    padding: 14px;
+    margin: 21px;
+    row-gap: 10;
+    overflow: hidden;
+    display: grid;
+    margin-top: -592px;
+    width: 133px;
+  
+  }
+  p{
+    color: antiquewhite;
+    font-size: 19px;
+    margin-left: 34px;
+    font-weight: 900;
+    margin-top: 15px;
+    width: 75px;
+  }
+  p:hover{
+    cursor: pointer;
+    color: lightgreen;
+  }
+  
+  .icon{
+    margin: 10px;
+    display: inline-grid;
+    margin-top: -6px;
+  }
+  .icon-text{
+    margin: 15px;
+    margin-top: -101px;
+    margin-left: 29px;
+    display: flow;
+  }
+  /*Home Icon*/
+  .home{
+    width: 26px;
+    height: 27px;
+    margin-left: 6px;
+  }
+  /*Search Icon*/
+  .search{
+    width: 26px;
+    height: 27px;
+    margin-left: 6px;
+  }
+
+  h1{
+    color: lime;
+    margin-left: 16px;
+  }
+/*Container Design*/
+.container{
+    width: 1203px;
+    height: 673px;
+    margin-left: 307px;
+    background: #4a4a4a;
+    margin-top: -243px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*Song Container*/
+.song{
+    width: 1142px;
+    background: #545353;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: -9px;
+    border-radius: 41px;
+    padding: 9px;
+    margin: 10px
+}
+.Music-icon{
+    width: 46px;
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+h2{
+    font-size: 18px;
+    width: 653px;
+    background: #545353;
+    padding: 4px;
+    margin-top: -47px;
+    margin-left: 68px;
+    color: white;
+    font-weight: bold;
+}
+audio{
+    width: 260px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 852px;
+    margin-top: -115px;
+    padding: 20px;
+}

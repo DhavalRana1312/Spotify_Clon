@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="logo">
+        <img src="Spotify_green.png" alt="Spotify Logo">
+    </div>
+    <h1>Login to start listening</h1>
+    <form [formGroup]="loginForm" (ngSubmit)="onNavigateLogin()">
+        <div class="input-group">
+            <label>Mobile No.</label>
+            <input type="text" id="number" placeholder="Mobile No." formControlName="number">
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Password" formControlName="password">
+        </div>
+        <button type="submit" class="next-button" >Login</button>
+        <p (click)="toggleForm('signup')">Don't have an account? Please register your account..
+            <span class="highlighted">Register</span>
+          </p>
+    </form>
+</div>

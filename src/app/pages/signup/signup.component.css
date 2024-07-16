@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Spotify green */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    background: #222;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 2em;
+    width: 300px;
+    text-align: center;
+    margin-left: 571px;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 1em;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.input-group label {
+    color: #ccc;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    background: #444;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.next-button {
+    background: linear-gradient(145deg, #1db954, #1aa34a);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.75em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.next-button:hover {
+    background: linear-gradient(145deg, #1aa34a, #1db954);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.next-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*toggle*/
+p {
+    color: #ccc; 
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: pointer; 
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+
+p:hover {
+    color: #fff; 
+}
+
+
+.highlighted {
+    color: #1DB954; 
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+p:hover .highlighted {
+    color: #1AA34A; 
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
+}
+
