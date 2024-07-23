@@ -60,7 +60,7 @@ export class SignupComponent implements OnInit {
       const number = this.signupForm.get('number')?.value;
       const password = this.signupForm.get('password')?.value;
       
-      if (email =='dhavalrana1312@gmail.com' && number == 8238172562 && password == 'admin') {
+      if (email =='admin@gmail.com' && number == 123456 && password == 'admin') {
         this.router.navigate(['']);
       } else {
         alert("Please Enter the Valid Details.");
