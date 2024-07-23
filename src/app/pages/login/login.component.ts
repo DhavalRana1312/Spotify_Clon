@@ -52,7 +52,7 @@ myPassoword:any
 
   login() {
     if (this.loginForm.valid) {
-      if(this.loginForm.value.number ==8238172562 && this.loginForm.value.password =='admin' ){
+      if(this.loginForm.value.number ==123456 && this.loginForm.value.password =='admin' ){
         this.router.navigate(['./home']);
       }else {
         alert("Please Enter the Valid Details.");
