@@ -111,3 +111,47 @@ p:hover .highlighted {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); 
 }
 
+@media (max-width: 600px){
+    .container {
+        background: #222;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        padding: 2em;
+        width: 218px;
+        text-align: center;
+        margin-left: 209px;
+        margin: 28px 0px;
+        height: 472px;
+    }
+    .logo img {
+        width: 121px;
+        margin-bottom: -19px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    .next-button {
+        background: linear-gradient(145deg, #1db954, #1aa34a);
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        padding: 0.75em;
+        font-size: -1em;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 7px 22px;
+    }
+    
+    .next-button:hover {
+        background: linear-gradient(145deg, #1aa34a, #1db954);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+    }
+    
+    .next-button:active {
+        transform: translateY(1px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
