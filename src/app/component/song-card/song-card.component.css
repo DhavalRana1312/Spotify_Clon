@@ -112,3 +112,112 @@ audio{
     margin-top: -115px;
     padding: 20px;
 }
+/* Media query for screens with a maximum width of 600px */
+@media  (max-width: 600px) {
+  /* Container adjustments */
+  .container {
+    width: 68%;
+    margin-left: 0;
+    margin-top: -42px;
+    height: auto;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  /* Sidebar adjustments */
+  .sidebar {
+    width: 69%;
+    height: 42px;
+    border-radius: 10px;
+    margin-top: 13px;
+  }
+
+  /* Sidebar Logo Design adjustments */
+  img {
+    width: 30%;
+    height: auto;
+    margin: 10px -1px;
+    display: block;
+  }
+
+  /* Sidebar items adjustments */
+  .sidebar-items {
+    padding: 3px;
+    margin: 27px;
+    row-gap: -9px;
+    margin-top: -69px;
+    width: 140px;
+    display: flex;
+  }
+
+  p {
+    font-size: 16px;
+    font-size: 11px;
+    margin-left: 12px;
+    width: auto;
+    margin: -12px 17px;
+    margin-top: 20px;
+  }
+
+  .icon {
+    margin: 17px 1px;
+    display: inline-block;
+    margin-left: 53px;
+  }
+
+  .icon-text {
+    margin: 6px;
+    display: block;
+    text-align: center;
+  }
+
+  /* Icon adjustments */
+  .home,
+  .search {
+    width: 11px;
+    height: 12px;
+    margin-left: 34px;
+    margin-right: -12px;
+    margin-top: 11px;
+  }
+
+  h1 {
+    font-size: 12px;
+    margin-left: 9px;
+  }
+
+  /* Song Container adjustments */
+  .song {
+    width: 87%;
+    height: 44px;
+    margin: 3px 3px;
+    padding: 9px;
+    border-radius: 10px;
+  }
+
+  .Music-icon {
+    width: 21px;
+    height: 19px;
+    margin-left: 0;
+    margin-top: -2px;
+  }
+
+  h2 {
+    font-size: 8px;
+    width: auto;
+    margin-left: 28px;
+    margin-top: -24px;
+    background: none;
+    padding: 0;
+  }
+
+  audio {
+    width: 99%;
+    height: 19px;
+    border-radius: -1px;
+    margin: 6px 2px;
+    padding: 0px;
+    margin-top: 5px;
+  }
+}
