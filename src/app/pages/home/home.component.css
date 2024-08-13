@@ -236,69 +236,27 @@ height: 250px;
   margin-top: -199px;
 }
 
-@media screen and (max-width: 360px) {
-  /* Styles for screens smaller than 360px */
+@media screen and (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
   .container {
-    height: auto;
-  }
-  .sidebar {
-    width: 100%;
     height: auto;
     padding: 10px;
   }
-  .sidebar-items {
-    flex-direction: column;
-    align-items: center;
-  }
-  p {
-    font-size: 12px;
-    margin: 5px 0;
-  }
-  .icon-text {
-    margin-top: 0;
-  }
-  .playlist-card,
-  .playlist-card-container,
-  .artist,
-  .img-artist,
-  h5,
-  .play-icon {
-    margin: auto;
-  }
-  .playlist-card-text {
-    font-size: 18px;
-    text-align: center;
-  }
-  .img-artist {
-    width: 80px;
-    height: 80px;
-  }
-  .play-icon {
-    width: 25px;
-    height: 25px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  /* Styles for screens smaller than 320px */
-  .container {
-    height: auto;
-  }
   .sidebar {
     width: 100%;
     height: auto;
-    padding: 5px;
+    padding: 15px;
   }
   .sidebar-items {
     flex-direction: column;
     align-items: center;
   }
   p {
-    font-size: 10px;
-    margin: 5px 0;
+    font-size: 14px;
+    margin: 10px 0;
   }
   .icon-text {
-    margin-top: 0;
+    margin-top: 5px;
   }
   .playlist-card,
   .playlist-card-container,
@@ -309,15 +267,15 @@ height: 250px;
     margin: auto;
   }
   .playlist-card-text {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
   }
   .img-artist {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
   }
   .play-icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
 }
